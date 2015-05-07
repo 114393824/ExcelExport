@@ -1,0 +1,9 @@
+drop table if exists 'action_config';
+create table 'action_config'(id,desc,animationName,sound);
+insert into 'action_config' values(100,'战斗待机','battle_idle',null);
+insert into 'action_config' values(101,'接受指令',null,null);
+insert into 'action_config' values(102,'攻击准备',null,null);
+insert into 'action_config' values(103,'受击动作',null,null);
+insert into 'action_config' values(104,'移动动作',null,null);
+insert into 'action_config' values(105,'被击退动作',null,null);
+insert into 'action_config' values(106,'眩晕动作',null,null);
